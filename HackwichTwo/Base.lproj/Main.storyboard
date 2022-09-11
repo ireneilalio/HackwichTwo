@@ -34,6 +34,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="PRESS ME TOO">
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="15"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pressMeButtonTooPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rbU-YN-EN8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
