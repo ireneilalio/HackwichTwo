@@ -9,6 +9,9 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,8 +20,9 @@ class secondViewController: UIViewController {
     
 
     @IBAction func ChangeColorButtonPressed(_ sender: Any) {
+        
     }
-    
+
     
     
     /*
